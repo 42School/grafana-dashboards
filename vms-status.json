@@ -15,8 +15,8 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 41,
-  "iteration": 1590764553686,
+  "id": 21,
+  "iteration": 1590771760054,
   "links": [],
   "panels": [
     {
@@ -36,6 +36,7 @@
         "y": 0
       },
       "id": 62,
+      "options": {},
       "pageSize": null,
       "repeat": null,
       "showHeader": true,
@@ -159,7 +160,7 @@
       "timeShift": null,
       "title": "Power State",
       "transform": "table",
-      "type": "table-old"
+      "type": "table"
     },
     {
       "columns": [],
@@ -178,6 +179,7 @@
         "y": 0
       },
       "id": 63,
+      "options": {},
       "pageSize": null,
       "showHeader": true,
       "sort": {
@@ -300,7 +302,7 @@
       "timeShift": null,
       "title": "CPU Usage",
       "transform": "table",
-      "type": "table-old"
+      "type": "table"
     },
     {
       "columns": [],
@@ -319,6 +321,7 @@
         "y": 0
       },
       "id": 64,
+      "options": {},
       "pageSize": null,
       "showHeader": true,
       "sort": {
@@ -441,11 +444,11 @@
       "timeShift": null,
       "title": "Memory Usage",
       "transform": "table",
-      "type": "table-old"
+      "type": "table"
     }
   ],
   "refresh": "",
-  "schemaVersion": 25,
+  "schemaVersion": 22,
   "style": "dark",
   "tags": [],
   "templating": {
@@ -453,9 +456,10 @@
       {
         "allValue": null,
         "current": {
+          "isNone": true,
           "selected": false,
-          "text": "62.210.117.84",
-          "value": "62.210.117.84"
+          "text": "None",
+          "value": ""
         },
         "datasource": "Prometheus",
         "definition": "label_values(up{job=~\"pfsense.*\",instance=~\".+\"}, instance)",
@@ -565,7 +569,6 @@
       {
         "allValue": null,
         "current": {
-          "selected": true,
           "text": "All",
           "value": [
             "$__all"
@@ -594,8 +597,8 @@
         "allValue": null,
         "current": {
           "selected": false,
-          "text": "cluster-42network",
-          "value": "cluster-42network"
+          "text": "All",
+          "value": "$__all"
         },
         "datasource": "Prometheus",
         "definition": "label_values(cluster_name)",
@@ -619,7 +622,6 @@
       {
         "allValue": null,
         "current": {
-          "selected": true,
           "text": "All",
           "value": [
             "$__all"
@@ -667,5 +669,5 @@
   "timezone": "",
   "title": "VMs status",
   "uid": "8ANn2EgMz",
-  "version": 7
+  "version": 5
 }
