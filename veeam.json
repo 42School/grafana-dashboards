@@ -15,7 +15,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 2,
-  "id": 40,
+  "id": 31,
   "links": [],
   "panels": [
     {
@@ -27,7 +27,7 @@
         "#5794F2",
         "#5794F2"
       ],
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -106,13 +106,7 @@
               }
             ]
           ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            }
-          ]
+          "tags": []
         }
       ],
       "thresholds": "",
@@ -137,7 +131,7 @@
         "rgba(3, 136, 16, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -229,13 +223,7 @@
               }
             ]
           ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            }
-          ]
+          "tags": []
         }
       ],
       "thresholds": "",
@@ -260,7 +248,7 @@
         "#FF9830",
         "#FF9830"
       ],
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -339,13 +327,7 @@
               }
             ]
           ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            }
-          ]
+          "tags": []
         }
       ],
       "thresholds": "",
@@ -370,7 +352,7 @@
         "rgba(219, 0, 0, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "decimals": 0,
       "fieldConfig": {
         "defaults": {
@@ -446,13 +428,7 @@
               }
             ]
           ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            }
-          ]
+          "tags": []
         }
       ],
       "thresholds": "",
@@ -470,7 +446,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -518,7 +494,7 @@
         "showThresholdLabels": false,
         "showThresholdMarkers": true
       },
-      "pluginVersion": "7.0.0",
+      "pluginVersion": "7.0.1",
       "targets": [
         {
           "dsType": "influxdb",
@@ -545,7 +521,7 @@
             [
               {
                 "params": [
-                  "REPO_nas-bocal"
+                  "REPO_Backup_datastore"
                 ],
                 "type": "field"
               },
@@ -555,13 +531,7 @@
               }
             ]
           ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            }
-          ]
+          "tags": []
         }
       ],
       "title": "Repository Free Space",
@@ -572,7 +542,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -686,13 +656,7 @@
               }
             ]
           ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            }
-          ]
+          "tags": []
         }
       ],
       "thresholds": [],
@@ -742,7 +706,7 @@
       "cacheTimeout": null,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -808,13 +772,7 @@
               }
             ]
           ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            }
-          ]
+          "tags": []
         }
       ],
       "thresholds": [
@@ -874,7 +832,7 @@
       "cacheTimeout": null,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -940,13 +898,7 @@
               }
             ]
           ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            }
-          ]
+          "tags": []
         }
       ],
       "thresholds": [
@@ -1006,7 +958,7 @@
       "cacheTimeout": null,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -1072,13 +1024,7 @@
               }
             ]
           ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            }
-          ]
+          "tags": []
         }
       ],
       "thresholds": [
@@ -1138,7 +1084,7 @@
       "cacheTimeout": null,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -1204,13 +1150,7 @@
               }
             ]
           ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            }
-          ]
+          "tags": []
         }
       ],
       "thresholds": [
@@ -1269,7 +1209,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -1368,7 +1308,7 @@
             {
               "key": "host",
               "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
+              "value": "DESKTOP-2O6EPOJ"
             }
           ]
         }
@@ -1420,7 +1360,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -1512,7 +1452,7 @@
             {
               "key": "host",
               "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
+              "value": "DESKTOP-2O6EPOJ"
             }
           ]
         }
@@ -1563,7 +1503,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "InfluxDB",
+      "datasource": "InfluxDB Infra",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -1657,13 +1597,7 @@
             {
               "key": "host",
               "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            },
-            {
-              "condition": "AND",
-              "key": "instance",
-              "operator": "=",
-              "value": "Intel[R] Ethernet Server Adapter X520-2 _2"
+              "value": "DESKTOP-2O6EPOJ"
             }
           ]
         }
@@ -1672,158 +1606,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Net. SAN",
-      "tooltip": {
-        "shared": true,
-        "sort": 0,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "format": "Bps",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        },
-        {
-          "format": "short",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    },
-    {
-      "aliasColors": {},
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "InfluxDB",
-      "fieldConfig": {
-        "defaults": {
-          "custom": {}
-        },
-        "overrides": []
-      },
-      "fill": 1,
-      "fillGradient": 0,
-      "gridPos": {
-        "h": 9,
-        "w": 12,
-        "x": 0,
-        "y": 16
-      },
-      "hiddenSeries": false,
-      "id": 24,
-      "legend": {
-        "avg": false,
-        "current": true,
-        "max": true,
-        "min": false,
-        "rightSide": true,
-        "show": false,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 1,
-      "links": [],
-      "nullPointMode": "null",
-      "options": {
-        "dataLinks": []
-      },
-      "percentage": false,
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "seriesOverrides": [
-        {
-          "alias": "win_net.bytes_sent",
-          "color": "#CFFAFF",
-          "transform": "negative-Y"
-        },
-        {
-          "alias": "win_net.bytes_received",
-          "color": "#E0752D"
-        }
-      ],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "groupBy": [],
-          "measurement": "win_net",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "Bytes_Received_persec"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [
-                  "bytes_received"
-                ],
-                "type": "alias"
-              }
-            ],
-            [
-              {
-                "params": [
-                  "Bytes_Sent_persec"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [
-                  "bytes_sent"
-                ],
-                "type": "alias"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=",
-              "value": "WIN-VKCAH305BJ9"
-            },
-            {
-              "condition": "AND",
-              "key": "instance",
-              "operator": "=",
-              "value": "Intel[R] 82574L Gigabit Network Connection"
-            }
-          ]
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "Net. MGMT",
+      "title": "Network",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -1899,5 +1682,5 @@
   "timezone": "browser",
   "title": "Veeam",
   "uid": "l8Lepawik",
-  "version": 14
+  "version": 7
 }
