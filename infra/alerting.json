@@ -15,7 +15,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 47,
+  "id": 1,
   "links": [],
   "panels": [
     {
@@ -554,7 +554,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "redfish_exporter_power{job=\"idrac-name\"}",
+          "expr": "redfish_exporter_fan_redundancy{job=\"idrac-name\"}",
           "format": "time_series",
           "instant": false,
           "interval": "",
@@ -1104,7 +1104,7 @@
     }
   ],
   "refresh": false,
-  "schemaVersion": 25,
+  "schemaVersion": 22,
   "style": "dark",
   "tags": [],
   "templating": {
@@ -1130,5 +1130,8 @@
   "timezone": "",
   "title": "Alerting",
   "uid": "9QkZG7mGz",
-  "version": 8
+  "variables": {
+    "list": []
+  },
+  "version": 2
 }
